@@ -2,8 +2,8 @@ FROM ubuntu as builder
 WORKDIR /app
 RUN apt update \
 	&& apt install -y wget \ 
-	&& wget https://github.com/iawia002/annie/releases/download/0.9.7/annie_0.9.7_Linux_64-bit.tar.gz \
-	&& tar -zxvf annie_0.9.7_Linux_64-bit.tar.gz
+	&& wget https://github.com/iawia002/annie/releases/download/0.9.8/annie_0.9.8_Linux_64-bit.tar.gz \
+	&& tar -zxvf annie_0.9.8_Linux_64-bit.tar.gz
 	
 FROM alpine as prod
 WORKDIR /app
