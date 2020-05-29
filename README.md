@@ -1,7 +1,7 @@
 # docker-of-ANNIE
 docker of video downloader ANNIE
 
-latest release: annie 0.9.5
+latest release: annie 0.10.0
 
 The docker image can be pulled by command "docker pull mishidexingyun/annie"
 
